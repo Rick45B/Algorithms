@@ -29,3 +29,6 @@ There are a lot of things to do, as this is a very immature project:
 * Adding algorithms of the various ADT's implemented.
 * Completing the BST ADT's
 * Adding graphs and their algorithms.
+
+## LICENSE
+The project is licensed under the MIT license.
