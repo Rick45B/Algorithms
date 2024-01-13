@@ -1,10 +1,10 @@
 # Algorithms
 ## Description
-An expanding collection of algorithms completely written in C and requiring no dependencies.
+An expanding collection of algorithms and ADT's completely written in C and requiring no dependencies.
 ## Project structure
 Inside the **src** folder of the project, there are a variety of sub-folders, each containing the source code implementation of each class of algorithms (all their headers can be found inside the **includes** subfolder).<br>
 For each class of algorithms, three folders can be found: **build**, **src** and **Tests**.
-* The **test** folder contains the source code implementation of the tests used for checking the implementation of methods (and for sanity checks).
+* The **Tests** folder contains the source code implementation of the tests used for checking the implementation of methods (and for sanity checks).
 * the **src** folder contains the source code implementation of the methods of that class of algorithms.
 * the **build** folder contains the makefile needed to compile (as for now all the makefiles are for gcc ONLY!) the source code into .o files.<br><br>
 
@@ -21,11 +21,11 @@ Compile all the source files using the various makefiles contained inside the **
 * Standardized API.
 * Test-rich implementation using asserts inside the **Tests** folders.
 * Heavily debugged against memory-leaks, no leaks seems to be present as for now.
-* stddef.h aside, the library doesn't necessarily need any standard c libraries.
+* stddef.h aside, the library doesn't necessarily need any standard C libraries.
 * Client can decide which allocation/deallocation functions the library will be using.
 
 ## TODO
 There are a lot of things to do, as this is a very immature project:
-* Adding algorithms to the various ADT's implemented.
+* Adding algorithms of the various ADT's implemented.
 * Completing the BST ADT's
 * Adding graphs and their algorithms.
